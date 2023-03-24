@@ -3,7 +3,7 @@
 
 # Libraries
 try:
-    from PyPDF2 import PdfFileMerger
+    from PyPDF2 import PdfMerger
     from os.path import expanduser, join
     from os import walk
     from sys import argv

@@ -6,10 +6,11 @@ try:
     from PyPDF2 import PdfFileMerger
     from os.path import expanduser, join
     from os import walk
+    from sys import argv
 except ModuleNotFoundError as e: input(f"The module was not found {e}. Please resume with return"), exit()
 
 # Variables
-Path = expanduser(r'~\Desktop\PDF-Files')
+Path = argv[1]
 
 # Main
 if __name__ == '__main__':

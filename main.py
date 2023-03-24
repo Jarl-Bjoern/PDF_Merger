@@ -14,7 +14,7 @@ Path = argv[1]
 
 # Main
 if __name__ == '__main__':
-    merger = PdfFileMerger()
+    merger = PdfMerger()
     for root, _, files in walk(Path, topdown=False):
         for file in files:
             if (file.endswith('.pdf')):

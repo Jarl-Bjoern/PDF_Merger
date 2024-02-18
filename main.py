@@ -19,5 +19,5 @@ if __name__ == '__main__':
         for file in files:
             if (file.endswith('.pdf')):
                 merger.append(join(root, file))
-    merger.write(expanduser(r'~\Desktop\result.pdf'))
+    merger.write(expanduser(r'~/Desktop/result.pdf'))
     merger.close()
